@@ -1,0 +1,18 @@
+from game import Game
+
+game = Game('White', 'Black')
+print(game.is_over)
+game.board.print_board()
+game.board.make_move('A7', 'A6')
+game.board.print_board()
+game.board.make_move('A6', 'A5')
+game.board.print_board()
+game.board.make_move('A5', 'A2')
+game.board.print_board()
+game.board.make_move('D7', 'D6')
+game.board.print_board()
+game.board.make_move('B2', 'B3')
+game.board.make_move('A5', 'A4')
+game.board.print_board()
+game.board.make_move('A4', 'B3')
+game.board.print_board()
